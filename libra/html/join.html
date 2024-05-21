@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body class="ms8">
+
+    <a href="./index.html" class="arrow left"></a>
+    <form
+        style="display: flex; align-items: center; flex-direction: column; justify-content: center; height:100vh  ; width: 100%;">
+        <div style="display: flex; flex-direction: column; margin: 20px;">
+            <div style="display: flex; margin: 10px; flex-direction: column;">
+                <h3 style="font-size: 40px; font-family: Rockwell Extra Bold; font-weight: 400;">Job Application Form
+                </h3>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="fullname">Full Name*: </label>
+                <input style="margin: 10px 0; padding: 10px; width: 100%; border: 1px solid black; border-radius: 5px;"
+                    type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="email">Email*: </label>
+                <input style="margin: 10px 0; padding: 10px; width: 100%; border: 1px solid black; border-radius: 5px;"
+                    type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="phone">Phone Number: </label>
+                <input style="margin: 10px 0; padding: 10px; width: 100%; border: 1px solid black; border-radius: 5px;"
+                    type="tel" name="phone" id="phone" placeholder="Phone Number">
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="display: flex; flex-direction: column;">
+                    <label for="employmentType">Employment Type*: </label>
+                    <select
+                        style="margin: 10px 0; padding: 10px; width: 100%; border: 1px solid black; border-radius: 5px;"
+                        name="employmentType" id="employmentType" required>
+                        <option value="fulltime">Full Time</option>
+                        <option value="parttime">Part Time</option>
+                        <option value="internship">Internship</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label for="workplaceType">Workplace Type*: </label>
+                    <select
+                        style="margin: 10px 0; padding: 10px; width: 100%; border: 1px solid black; border-radius: 5px;"
+                        name="workplaceType" id="workplaceType" required>
+                        <option value="onsite">On-Site</option>
+                        <option value="hired">Hired</option>
+                        <option value="remote">Remote</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div style="display: flex; flex-direction: column;">
+                    <input
+                        style="padding: 10px; width: 100px; background-color: #A77047; color: white; border-radius: 5px;"
+                        type="button" value="submit" onclick="window.location.href='./thank.html'">
+                    <h3><a href="./index.html" style="color: #000; font-size: 16px; font-family: Jacques Francois;">Back
+                            to
+                            Home</a></h3>
+                </div>
+
+
+                <p style="margin-left: 40px; width: 600px;">By clicking<strong>Send application,</strong> you agree to
+                    our<strong>User
+                        Agreement</strong> , Privacy Policy,
+                    and <strong>Cookie Policy.</strong>
+                </p>
+            </div>
+            <div>
+            </div>
+        </div>
+
+    </form>
+    <h1 style="font-family:'Sansation Light Light';font-weight:300px; float: right; font-size: 96px; color: #A77047;">
+        LIBRA</h1>
+</body>
+
+</html>

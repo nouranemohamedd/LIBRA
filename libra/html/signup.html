@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body class="ms8">
+
+    <a href="./login.html" class="arrow left"></a>
+    <form id="signupForm"
+        style="display: flex; align-items: center; flex-direction: column; justify-content: center; height:100vh ;">
+        <div style="display: flex; flex-direction: column; margin: 20px;">
+            <div style="display: flex; margin: 10px;  flex-direction: column;">
+                <h3 style="font-size: 40px; font-family: Rockwell Extra Bold;  font-weight: 400;">CREATE ACCOUNT</h3>
+                <p style="font-family: Times New Roman; font-size: 32px;">already have an account? <a
+                        style="color: #A77047;" href="./login.html">login</a></p>
+            </div>
+            <div style="margin-bottom: 0;">
+                <input style="margin: 10px ; padding: 10px; width: 50%; border: 1px solid black; border-radius: 5px;"
+                    type="text" name="fname" placeholder="first name" id="firstName" required>
+                <input style="margin: 10px; padding: 10px; width: 50%; border: 1px solid black; border-radius: 5px;"
+                    type="text" name="lname" placeholder="last name " id="lastName" required>
+            </div>
+            <input style="margin: 10px; padding: 10px; width: 800px; border: 1px solid black; border-radius: 5px;"
+                type="email" name="email" placeholder="email" id="email" required>
+            <input style="margin: 10px; padding: 10px; width: 800px; border: 1px solid black; border-radius: 5px;"
+                type="password" name="password" placeholder="password" id="password" required>
+            <input id="createAccountBtn"
+                style="margin: 10px; padding: 10px; width: 800px; background-color: #A77047; color: white; border-radius: 5px;"
+                type="submit" value="create account">
+            <div>
+                <input type="checkbox" style="margin: 13px 4px 13px 13px;" required>
+                <p style="margin: 10px;">I agree to Libra <span style="color: #A77047;">terms of service</span> and
+                    <span style="color: #A77047;">privacy policy</span></p>
+            </div>
+        </div>
+        <div>
+            <h3><a href="./index.html" style="color: #000; font-size: 36px; font-family: Jacques Francois;">back to
+                    home</a></h3>
+        </div>
+    </form>
+    <h1 style="font-family:'Sansation Light Light';font-weight:300px; float: right; font-size: 96px; color: #A77047;">
+        LIBRA</h1>
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const response = await fetch('https://auth-it84.onrender.com/signup', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ firstName, lastName, email, password })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Signup failed');
+                }
+
+                const data = await response.json();
+                alert('Account created successfully');
+                // Optionally redirect to login page
+                window.location.href = './login.html';
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Signup failed');
+            }
+        });
+    </script>
+</body>
+
+</html>

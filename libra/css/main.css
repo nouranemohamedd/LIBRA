@@ -1,0 +1,1634 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Major+Mono+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Major+Mono+Display&family=Rationale&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Emblema+One&family=Major+Mono+Display&family=Rationale&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Emblema+One&family=Italianno&family=Major+Mono+Display&family=Rationale&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Emblema+One&family=Italianno&family=Jacques+Francois&family=Major+Mono+Display&family=Rationale&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Emblema+One&family=Italianno&family=Jacques+Francois&family=Major+Mono+Display&family=Rationale&family=Ruslan+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Emblema+One&family=Italianno&family=Jacques+Francois&family=Major+Mono+Display&family=Mrs+Saint+Delafield&family=Rationale&family=Ruslan+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Barrio&family=Emblema+One&family=Italianno&family=Jacques+Francois&family=Major+Mono+Display&family=Mrs+Saint+Delafield&family=Rationale&family=Ruslan+Display&display=swap');
+
+@font-face {
+    font-family: Rockwell Std Extra Bold;
+    src: url(./Rockwell\ Std\ Extra\ Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+
+    transition: all .2s linear;
+}
+
+html {
+
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+/* home page */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+
+    color: #B66E35;
+    font-family: Sansation Light;
+    font-size: 85px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+nav img {
+    width: 134px;
+    height: 134px;
+    top: -33px;
+    left: 515px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+
+}
+
+nav form {
+    width: 690px;
+    height: 30px;
+    background: #E9E3DE33;
+    border: 1px solid #E9E3DE;
+    padding: 8px;
+}
+
+nav form input,
+nav form label {
+    background: #e9e3de0a;
+    color: #B66E35;
+
+}
+
+::placeholder {
+    color: #B66E35;
+}
+
+nav a {
+    width: 131px;
+    height: 37.2px;
+    border-radius: 4px;
+    background: #B66E35;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: Jacques Francois;
+}
+
+.ms2 {
+    display: grid;
+    line-height: center;
+    height: 100vh;
+    background-image: url(../imges/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.ms2 .one {
+    display: flex;
+    justify-content: center;
+}
+
+.ms2 .one p {
+    font-family: Major Mono Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 1630;
+
+}
+
+.ms2 .one img {
+    width: 250px;
+    height: 250px;
+    top: 398px;
+    left: 1386px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+
+
+}
+
+.arrow {
+    position: absolute;
+    left: 250px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block !important;
+    padding: 12px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+.ms2 p,
+.ms2 .two p {
+    color: #FFFFFF;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.ms2 .two {
+    display: flex;
+    flex-direction: column;
+}
+
+.ms2 .two .pra {
+    margin-bottom: 10px;
+}
+
+.ms2 .two img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.ms3 {
+    padding: 2rem;
+    display: flex;
+    border-bottom: 5px solid #BFA4994D;
+}
+
+.ms3 .hedfuo {
+    display: grid;
+    width: 60%;
+}
+
+.ms3 .hedfuo h1 {
+    color: #425066;
+    /* width: 800px; */
+    font-family: Rockwell Std Extra Bold;
+    font-size: 65px;
+    font-weight: 800;
+    /* line-height: 42.2px; */
+    text-align: left;
+}
+
+.ms3 .hedfuo span {
+    color: #B66E35;
+    font-family: Rockwell Std Extra Bold;
+    font-size: 70px;
+    font-weight: 800;
+    /* line-height: 42.2px; */
+    text-align: left;
+
+}
+
+.ms3 .hedfuo p {
+    font-family: Times New Roman;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: left;
+    color: #132B47;
+}
+
+.ms3 .divms3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.ms3 .divms3 .smalcard {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 15px;
+}
+
+.ms3 .divms3 .smalcard i,
+.ms3 .divms3 .smalcard img {
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.ms3 .divms3 .smalcard i {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ms3 .divms3 .smalcard img {
+    object-fit: cover;
+}
+
+.ms3 .divms3 .smalcard p {
+    font-family: Times New Roman;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: #132B47;
+}
+
+.ms4 {
+    display: flex;
+    padding: 2rem;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.ms4 .shado {
+    display: grid;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 #BFA499, 0 6px 20px 0 #BFA499;
+    border-radius: 4px;
+}
+
+.ms4 .shado .shadoflex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.ms4 .shado .shadoflex p {
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: #132B47;
+    width: 370px;
+}
+
+.ms4 .shado .shadoflex i {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.ms4 .divms4 h3 {
+    color: #A77047;
+    font-family: Rockwell Std Extra Bold;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ms4 .divms4 p {
+    font-family: Times New Roman;
+    font-size: 29px;
+    font-weight: 400;
+    /* line-height: 46px; */
+    text-align: left;
+    color: #162D49;
+}
+
+.ms5 {
+    border-top: 5px solid #BFA4994D;
+    border-bottom: 5px solid #BFA4994D;
+    padding: 2rem;
+}
+
+.ms5 h2 {
+    text-align: center;
+}
+
+.ms5 .contanierms5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ms5 .contanierms5 .contflecone h3 {
+    font-family: Times New Roman;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    color: #132B47;
+}
+
+.ms5 .contanierms5 .contflecone .flecone {
+    display: flex;
+    gap: 20px;
+    margin: 18px 0;
+}
+
+.ms5 .contanierms5 .contflecone .flecone i {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.ms5 .contanierms5 .contflecone .flecone p {
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: #6B8091;
+}
+
+.ms5 .contanierms5 div .divsec4 {
+    background: #7E909E80;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.ms5 .contanierms5 div .divsec4 div {
+    align-items: center;
+}
+
+.ms5 .contanierms5 div .divsec4 div i {
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.ms5 .contanierms5 div .divsec4 div p {
+    color: #132B47;
+    font-size: 20px;
+}
+
+.ms5 .contanierms5 div .divsec4 p {
+    color: #132B47;
+    font-size: 19px;
+    font-family: Times New Roman;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.ms5 .contanierms5 .free a {
+    margin-right: 110px;
+    /* padding: 20px 36px; */
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #132B47;
+    color: #132B47;
+    font-size: 20px;
+}
+
+.ms5 .contanierms5 div .conect {
+    text-align: center;
+    background-color: #A77047;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.6px;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border-radius: 4px;
+    width: 50%;
+
+}
+
+.ms6 {
+    padding: 2rem;
+}
+
+.ms6 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40.37px;
+}
+
+.ms6 .divms6 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.ms6 .divms6 div {
+    padding: 20px;
+}
+
+.ms6 .divms6 div i {
+    width: 70px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 44px;
+    padding: 5px;
+}
+
+.ms6 .divms6 div h3 {
+    font-family: Times New Roman;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
+    color: #132B47;
+}
+
+.ms6 .divms6 div p {
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.38px;
+    text-align: left;
+    color: #132B47;
+}
+
+.ms7 {
+    background-color: #BDCBCB;
+    padding: 2rem;
+}
+
+.ms7 h2 {
+    text-align: center;
+}
+
+.ms7 .divms7 {
+    display: flex;
+}
+
+.ms7 .devms7 {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ms7 .devms7 h3 {
+    font-family: Rockwell Std Extra Bold;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 56.37px;
+    color: #A77047;
+}
+
+.ms7 .devms7 img {
+    width: 800px;
+    height: 40%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px;
+    /* height: 1200px; */
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    row-gap: 5px;
+}
+
+.card {
+    /* width: 320px; */
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 #6B8091, 0 6px 20px 0 #6B8091;
+}
+
+.card-image {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    object-fit: cover;
+    position: absolute;
+    bottom: 20px;
+    box-shadow: 0 4px 8px 0 #6B8091, 0 6px 20px 0 #6B8091;
+}
+
+.divname div i {
+    color: #F5BF11;
+}
+
+.name {
+    font-family: Jacques Francois;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.38px;
+    color: #132B47;
+}
+
+.description {
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    color: #132B47;
+}
+
+.ms8 {
+    background-image: url(../imges/img14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.ms8 h2 {
+    text-align: center;
+}
+
+.ms8 div {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* closed page */
+
+header {
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+header h1 {
+
+    color: #B66E35;
+    font-family: Sansation Light;
+    font-size: 85px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+header img {
+    width: 134px;
+    height: 134px;
+    top: -33px;
+    left: 515px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+
+}
+
+.titelClose {
+    font-family: Rationale;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #132B47;
+    background: radial-gradient(#FFFFFF, #E9E3DE);
+    padding: 4rem;
+
+}
+
+.closSec {
+    display: flex;
+    gap: 20px;
+}
+
+.gredCloseO,
+.gridCloseT {
+    display: grid;
+    row-gap: 20px;
+}
+
+.pimgO {
+    background-image: url(../imges/img24.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 800px;
+    position: relative;
+}
+
+.pimgO .p1 {
+    position: absolute;
+    bottom: 10%;
+    color: #FFFFFF;
+    width: 80%;
+    left: 6%;
+    font-family: Emblema One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38.19px;
+    text-align: left;
+
+}
+
+.pimgO .p2 {
+    position: absolute;
+    bottom: 3%;
+    color: #FFFFFF;
+    left: 75%;
+    font-family: Italianno;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.contanier {
+    background-color: #E9E3DE;
+    padding: 20px;
+    margin: 10px;
+    /* height: 250px; */
+
+}
+
+.contanier h2 {
+    font-family: Times New Roman;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41.4px;
+    text-align: left;
+    color: #132B47;
+    margin-bottom: 40px;
+}
+
+.contanier p {
+    font-family: Times New Roman;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34.7px;
+    text-align: left;
+    color: #132B47;
+    /* width: 80%; */
+}
+
+.pimgT {
+    background-image: url(../imges/img25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    position: relative;
+}
+
+.pimgT .p1 {
+    position: absolute;
+    top: 3%;
+    color: #132B47;
+    width: 80%;
+    left: 6%;
+    font-family: Emblema One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38.19px;
+    text-align: left;
+
+}
+
+.pimgT .p2 {
+    position: absolute;
+    top: 23%;
+    color: #132B47;
+    left: 75%;
+    font-family: Italianno;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.divBut {
+    display: grid;
+}
+
+.loadBUT {
+    margin: 30px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #E9E3DE;
+    width: 198.38px;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.38px;
+    text-align: center;
+    color: #132B47;
+    justify-self: center;
+}
+
+/* hierpage */
+
+.hirsec {
+    display: grid;
+    background-image: url(../imges/img27.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.hirsec .pra1 {
+    font-family: Ruslan Display;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #132B47;
+    margin-bottom: 30px;
+}
+
+.hirsec .pra2,
+.hirsec .pra3 {
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #132B47;
+}
+
+.hirsec .pra3 {
+    margin-bottom: 30px;
+}
+
+.hirsec .pra4 {
+    font-family: Mrs Saint Delafield;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 25.78px;
+    letter-spacing: 0.4444444477558136px;
+    text-align: center;
+    color: #132B47;
+    margin-bottom: 50px;
+}
+
+.hirsec .pra4 span {
+    font-family: Jacques Francois;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 25.78px;
+    letter-spacing: 0.4444444477558136px;
+    text-align: center;
+    color: #132B47;
+}
+
+.hirsec2 {
+    padding: 2rem;
+}
+
+.hirsec2 h1 {
+    font-family: Rockwell Std Extra Bold;
+    color: #A77047;
+    width: 742px;
+    height: 82px;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 81.94px;
+}
+
+.hirsec2 p {
+    color: #132B47;
+    width: 1068.18px;
+    height: 220px;
+    font-family: Times New Roman;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 55.2px;
+    text-align: left;
+}
+
+.hirsec3 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.flex {
+    display: grid;
+    row-gap: 50px;
+    column-gap: 50px;
+
+}
+
+.imgflex {
+    height: 280px;
+    object-fit: cover;
+
+}
+
+.img2 {
+    margin-left: 50px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.divflex h2 {
+    font-family: Rockwell Std Extra Bold;
+    color: #A77047;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 72.3px;
+
+}
+
+.divflex {
+    margin-left: 80px;
+}
+
+.divflex p {
+
+    font-family: Times New Roman;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 57.5px;
+    text-align: left;
+    color: #132B47;
+}
+
+.hirsec4,
+.hirsec5 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.hirsec4 .divsec4 {
+    background: #7E909E80;
+    margin-bottom: 10px;
+    width: 700px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.hirsec4 .divsec4 div {
+    align-items: center;
+}
+
+.hirsec4 .divsec4 div i {
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.hirsec4 .divsec4 div p {
+    color: #132B47;
+    font-size: 20px;
+}
+
+.hirsec4 .divsec4 p {
+    color: #132B47;
+    font-size: 20px;
+    font-family: Times New Roman;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.free a {
+    margin-right: 110px;
+    padding: 15px 35px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #132B47;
+    color: #132B47;
+    font-size: 20px;
+}
+
+.hirsec5 .flexsec5 {
+    display: flex;
+}
+
+.hirsec5 .flexsec5 div {
+    margin: 50px;
+}
+
+.hirsec5 .flexsec5 div h3 {
+    font-family: Times New Roman;
+    font-weight: 700;
+    line-height: 36.89px;
+    text-align: center;
+    color: #132B47;
+    font-size: 20px;
+}
+
+.hirsec5 .flexsec5 div p {
+    font-family: Times New Roman;
+    font-weight: 400;
+    line-height: 28.44px;
+    text-align: center;
+    color: #132B47;
+    font-size: 16px;
+}
+
+.hirsec5 .hedsec5 h3 {
+    color: #A77047;
+    font-family: Rockwell Std Extra Bold;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 56.89px;
+    text-align: center;
+
+}
+
+.hirsec5 .hedsec5 p {
+    color: #132B47;
+    font-family: Jacques Francois;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.44px;
+    text-align: center;
+
+}
+
+/* about page */
+
+.aboutsec1 {
+    margin-bottom: 50px;
+}
+
+.aboutsec1 div {
+    background: linear-gradient(180deg, rgba(191, 164, 153, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    height: 10px;
+}
+
+.aboutsec1 h1 {
+    padding: 50px;
+    font-family: Barrio;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 68px;
+    text-align: center;
+    color: #132B47;
+}
+
+.aboutsec1 .shortborder {
+    width: 610px;
+    height: 7px;
+    background: #BFA49980;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+.aboutsec1 p {
+    background: linear-gradient(180deg, #FFFFFF 30%, #dbd6d1 100%);
+    padding: 2rem;
+    font-family: Times New Roman;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: #132B47;
+}
+
+.aboutsec2,
+.aboutsec5 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.aboutsec2 h1 {
+    font-family: Jacques Francois;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 88px;
+    text-align: center;
+    color: #132B47;
+}
+
+.aboutsec2 p {
+    font-family: Jacques Francois;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 88px;
+    text-align: center;
+    color: #6B8091;
+}
+
+.aboutsec3 {
+    margin-bottom: 50px;
+    padding: 2rem;
+}
+
+h2 {
+    font-family: Rockwell Std Extra Bold;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 88px;
+    color: #6B8091;
+}
+
+.aboutsec3 h2 span {
+    font-family: Rockwell Std Extra Bold;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 88px;
+    text-align: left;
+    color: #A77047;
+}
+
+.aboutsec3 .shortborder {
+    width: 410px;
+    height: 3px;
+    background: #BFA49980;
+    margin-bottom: 30px;
+}
+
+.aboutsec3 p {
+    font-family: Times New Roman;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #132B47;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.aboutsec4 h1 {
+    height: 88px;
+    top: 4482px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rockwell Std Extra Bold;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    color: #BF8E4C;
+}
+
+.slide-container {
+    /* max-width: 1120px; */
+    /* width: 100%; */
+    padding: 10px 0;
+    /* background-color: #eee; */
+}
+
+.slide-content {
+    margin: 0 5px;
+}
+
+.img-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 5px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.img-content {
+    row-gap: 5px;
+}
+
+.card-img {
+    width: 280px;
+    height: 252px;
+}
+
+.card-im {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.name {
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #132B47;
+}
+
+.aboutsec5 h1 {
+    font-family: Rockwell Std Extra Bold;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+    color: #6B8091;
+}
+
+.aboutsec5 h2 {
+    font-family: Rockwell Std Extra Bold;
+    font-size: 24px;
+    /* font-weight: 200; */
+    line-height: 38px;
+    text-align: center;
+    color: #BF8E4C;
+    margin-bottom: 20px;
+}
+
+.aboutsec5 form {
+    display: grid;
+    width: 500px;
+    height: 250px;
+}
+
+.aboutsec5 form ::placeholder {
+    color: #132B47;
+    border-bottom: 1px solid #132B47;
+
+}
+
+.aboutsec5 form button {
+    color: #FFFFFF;
+    background-color: #BF8E4C;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+/* book page */
+
+.boksec1,
+.boksec2,
+.boksec3,
+.boksec4 {
+    padding: 3rem;
+}
+
+
+.bokform {
+    background-color: #E9E3DE;
+}
+
+.bokform form {
+    background: #E9E3DE33;
+    border: 1px solid #E9E3DE;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bokform form input,
+.bokform form label,
+.bokform form i {
+    background: #e9e3de0a;
+    color: #B66E35;
+
+}
+
+::placeholder {
+    color: #B66E35;
+    font-family: Jacques Francois;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.boksec1 .body {
+    margin-top: 50px;
+}
+
+.cardd {
+    margin: 1px;
+}
+
+.boksec1card-content {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px 10px;
+    background: #D0BFB6;
+    width: 100px;
+    height: 100px;
+}
+
+.boksec1card-content i {
+    color: #132B47;
+    font-size: 29.64px;
+}
+
+.botnboksec1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 70px;
+}
+
+.botnboksec1 a {
+    font-family: Times New Roman;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    color: #132B47;
+    border: 1px solid #132B47;
+    border-radius: 30px;
+    padding: 8px 68px;
+}
+
+.botnboksec1 a:hover {
+    background-color: #132B47;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+
+}
+
+.boksec2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.divsecbok2 {
+    display: grid;
+    background-color: #132B47;
+    padding: 20px;
+    color: #F6FAFC;
+    width: 70%;
+}
+
+.divsecbok2 h1 {
+    font-family: Times New Roman;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.49px;
+    text-align: left;
+}
+
+.divsecbok2 div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.divsecbok2 div p {
+    font-family: Times New Roman;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 55.2px;
+    text-align: left;
+
+}
+
+.divsecbok2 div a {
+    font-family: Times New Roman;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: left;
+    color: #132B47;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 58px;
+}
+
+.divimgsecbok2 {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+
+.boksec3 .p1boksec3 {
+    font-family: Times New Roman;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 73.59px;
+    text-align: left;
+    color: #132B47;
+}
+
+.boksec3 .p2boksec3 {
+    font-family: Times New Roman;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 55.2px;
+    text-align: left;
+    color: #132b47a2;
+}
+
+.boksec4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+    /* row-gap: 20px; */
+}
+
+.photo-with-caption {
+    position: relative;
+    display: inline-block;
+    /* Ensures that each photo-caption pair is displayed inline */
+}
+
+.photo-with-caption .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background for better readability */
+    color: white;
+    padding: 70px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.photo-with-caption .caption h3 {
+    font-family: Times New Roman;
+    margin-bottom: 14px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55.2px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.photo-with-caption .caption h2,
+.photo-with-caption .caption p {
+    font-family: Times New Roman;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+}
+
+.boksec4 img {
+    /* width: 595.82px; */
+    height: 350px;
+    object-fit: cover;
+    aspect-ratio: 11/8;
+}
+
+.boksec5 {
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards .lCard {
+    width: 50%;
+    margin: 20px;
+    background-color: rgba(153, 153, 153, 0.2);
+    padding: 20px;
+}
+
+.cards .lCard-lp {
+    width: 50%;
+    height: 300px;
+    margin: 2px;
+    background-color: rgba(153, 153, 153, 0.2);
+    padding: 20px;
+
+}
+
+.cards .lCard .contnet {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards .lCard-lp .contnet {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards .lCard .contnet .img {
+    object-fit: cover;
+}
+
+.cards .lCard-lp .contnet .img {
+    object-fit: cover;
+}
+
+.cards .lCard .contnet .info {
+    width: 100%;
+}
+
+.cards .lCard-lp .contnet .info {
+    width: 100%;
+}
+
+.cards .lCard .contnet .info h3 {
+    font-family: Times New Roman;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.6px;
+    text-align: left;
+}
+
+.cards .lCard-lp .contnet .info h3 {
+    font-family: Times New Roman;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.6px;
+    text-align: left;
+}
+
+.cards .lCard-lp .contnet .info p,
+.cards .lCard .contnet .info p {
+    font-family: Times New Roman;
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+    font-weight: 400;
+    line-height: 27.6px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.cards .lCard-lp .contnet .img,
+.cards .lCard .contnet .img {
+    padding-right: 20px;
+}
+
+.infoTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoTitle p {
+    margin: 0 !important;
+
+
+}
+
+.infoTitle span {
+    margin-left: 5px !important;
+    color: #ffc107;
+    /* Change the color as needed */
+    font-size: 16px;
+    /* Adjust the size of the star */
+
+}
+
+
+
+
+
+
+
+.cat {
+    border: 1px solid gray;
+    color: gray;
+    padding: 4px;
+    margin: 5px;
+}
+
+
+.thank {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
+
+
+.payment {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+
+.button {
+    background-color: #132B47;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.foot1 {
+    background-color: #E9E3DE;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.foot1 .footgrid {
+    display: grid;
+}
+
+.footgrid div h3,
+.footgrid div p,
+.footgrid p,
+.footgrid div a {
+    color: #132B47;
+}
+
+.footgrid div {
+    margin: 10px;
+}
+
+.foot2 {
+    background-color: #6B809199;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.foot2 .a1 {
+    color: #B66E35;
+    font-family: Sansation Light;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.foot2 .a2 {
+    color: #132B47;
+    justify-self: right;
+    grid-column: 5/10;
+}
+
+.footDP {
+    display: grid;
+    background-color: #6B809199;
+}
+
+.footDP p {
+    justify-self: center;
+    justify-items: center;
+    width: 299px;
+    height: 23.32px;
+    top: 5200.78px;
+    left: 811px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    color: #132B47;
+}

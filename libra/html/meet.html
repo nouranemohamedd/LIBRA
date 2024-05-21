@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body class="ms8">
+    <a href="./index.html" class="arrow left"></a>
+
+
+    <div style="display: flex; align-items: center; flex-direction: column; justify-content: center; height:100vh ;">
+        <div
+            style="display: flex; flex-direction: column; margin: 10px; justify-content: center ; align-items: center;">
+
+            <h3
+                style="font-size: 40px; color: #132B47; font-family: Rockwell Extra Bold; text-align: center;  font-weight: 400;">
+                Schedule a virtual
+                meeting with our experienced lawyers for secure and tailored advice.</h3>
+            <div style="display: flex;justify-content: space-between; width: 100%;">
+                <div style="display: flex; flex-direction: column;">
+
+                    <label style="margin: 10px;font-size: 36px;color: #132B47; " for="location">choose location</label>
+                    <select style="margin: 10px; padding: 10px; border: 1px solid black; border-radius: 5px;"
+                        name="location" id="">
+                        <option value="">choose location</option>
+                        <option value="doha">doha</option>
+                        <option value="paris">paris</option>
+                        <option value="newyork">newyork</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label style="margin: 10px;font-size: 36px;color: #132B47; " for="date">choose date</label>
+                    <input style="margin: 10px; padding: 10px;  border: 1px solid black; border-radius: 5px;"
+                        type="date" name="date" placeholder="choose date" id="">
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label style="margin: 10px;font-size: 36px;color: #132B47; " for="time">choose time</label>
+
+                    <input style="margin: 10px; padding: 10px;  border: 1px solid black; border-radius: 5px;"
+                        type="time" name="time" placeholder="choose date" id="">
+
+                </div>
+            </div>
+
+        </div>
+        <div>
+        </div>
+        <button class="button" onclick="window.location.href = './book.html';">
+            book now
+        </button>
+    </div>
+
+</body>
+
+</html>

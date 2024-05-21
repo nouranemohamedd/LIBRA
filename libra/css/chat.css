@@ -1,0 +1,88 @@
+.chat-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.message {
+    margin-bottom: 10px;
+    background-color: #BFA49980;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.input-container {
+    display: flex;
+}
+
+input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-button {
+    padding: 10px;
+    background-color: #7B4B4B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer {
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    color: #7B4B4B;
+}
+
+.message-timer {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 24px;
+    color: #132B47;
+}
+
+.timer svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.timer circle {
+    fill: none;
+    stroke-width: 8;
+    stroke: #e6e6e6;
+    r: 45%;
+    cx: 50%;
+    cy: 50%;
+}
+
+#progress {
+    stroke: #7B4B4B;
+    stroke-dasharray: 282.74;
+    /* Circumference of the circle */
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear;
+}

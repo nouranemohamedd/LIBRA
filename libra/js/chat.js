@@ -1,6 +1,6 @@
 let timerElement = document.getElementById('timer');
 let progressElement = document.getElementById('progress');
-let time = 3; // 1:59 in seconds
+let time = 5; // 1:59 in seconds
 let totalTime = time;
 let circumference = 2 * Math.PI * 45; // Circumference of the circle
 progressElement.style.strokeDasharray = circumference;
